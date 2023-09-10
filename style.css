@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.legend {
+  align-self: flex-start;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+.tooltip {
+  background-color: rgb(140, 139, 146);
+  display: inline-block;
+  position: absolute;
+  visibility: hidden;
+}
